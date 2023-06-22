@@ -5,7 +5,7 @@ import React from "react";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 
-const App = () => {
+function App () {
   return (
     <BrowserRouter basename="/React".react-router>
      <Router>
