@@ -7,7 +7,7 @@ import About from "./Pages/About";
 function App () {
   return (
     <>
-      <BrowserRouter basename="/React".react-router>
+      <BrowserRouter basename="/">
      <Router>
       <Routes>
         <Route path="/" element={<Home></Home>}/>
