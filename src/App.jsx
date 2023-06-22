@@ -7,7 +7,7 @@ import About from "./Pages/About";
 
 const App = () => {
   return (
-     <Router basename="/index.html">
+     <Router basename="/">
         <Routes>
           <Route path="/" element={<Home></Home>}/>
           <Route path="/Contact" element={<Contact></Contact>}/>
