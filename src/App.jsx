@@ -7,7 +7,7 @@ import About from "./Pages/About";
 
 const App = () => {
   return (
-    <BrowserRouterbasename="/React".react-router>
+    <BrowserRouter basename="/React".react-router>
      <Router>
         <Routes>
           <Route path="/" element={<Home></Home>}/>
@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/About" element={<About></About>}/>
         </Routes>
       </Router>
-    </BrowserRouterbasename>
+    </BrowserRouter>
   );
 }
 
