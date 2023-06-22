@@ -7,7 +7,15 @@ import About from "./Pages/About";
 function App () {
   return (
     <>
-      <Home></Home>
+      <BrowserRouter basename="/React".react-router>
+     <Router>
+      <Routes>
+        <Route path="/" element={<Home></Home>}/>
+        <Route path="/Contact" element={<Contact></Contact>}/>
+        <Route path="/About" element={<About></About>}/>
+      </Routes>
+    </Router>
+    </BrowserRouter>
     </>
   );
 }
