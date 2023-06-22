@@ -7,6 +7,7 @@ import About from "./Pages/About";
 
 function App () {
   return (
+    <>
     <BrowserRouter basename="/React".react-router>
      <Router>
         <Routes>
@@ -16,6 +17,7 @@ function App () {
         </Routes>
       </Router>
     </BrowserRouter>
+    </>
   );
 }
 
