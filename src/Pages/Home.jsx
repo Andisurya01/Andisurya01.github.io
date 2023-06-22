@@ -10,7 +10,7 @@ import ProjectKuli1 from '../AllComponentsHere/Components Home/ProjectKuli1';
 import HR from '../AllComponentsHere/Components Abstract/GarisHorizontal';
 import ProjectKuli2 from '../AllComponentsHere/Components Home/ProjectKuli2';
 
-const Home = () => {
+function Home (){
     return (
         <div>
             <Navbar></Navbar>
