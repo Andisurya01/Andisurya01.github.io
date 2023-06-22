@@ -7,15 +7,13 @@ import About from "./Pages/About";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/index.html">
-     <Router>
+     <Router basename="/index.html">
         <Routes>
           <Route path="/" element={<Home></Home>}/>
           <Route path="/Contact" element={<Contact></Contact>}/>
           <Route path="/About" element={<About></About>}/>
         </Routes>
       </Router>
-    </BrowserRouter>
     
   );
 }
